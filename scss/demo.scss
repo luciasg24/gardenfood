@@ -2,27 +2,6 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-li {
-    list-style-type: none;
-    text-decoration: none;
-    text-decoration-color: none;
-    font-family: "Lobster", cursive;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 20pt;
-    margin: 20px;
-    font-weight: normal;
-}
-
-.neutro {
-    list-style-type: none;
-    text-decoration: none;
-    text-decoration-color: none;
-    color: white;
-} 
-
-
-
 .encabezado {
     display: flex;
     justify-content: center;
@@ -270,36 +249,7 @@ li {
 }
 
 @media (min-width: 576px) {
-    body{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    li {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        font-family: "Lobster", cursive;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        font-size: 20pt;
-        margin: 20px;
-        font-weight: normal;
-    }
-    
-    .neutro {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        color: white;
-    } 
-    
-    
-    
-    .encabezado {
-        display: flex;
-        justify-content: center;
-    }
-    
+
     .flex {
         display: flex;
         flex-direction: row;
@@ -308,7 +258,12 @@ li {
         margin: 0px;
         padding: 0px;
     }
-    
+
+    .encabezado {
+        display: flex;
+        justify-content: center;
+    }
+
     .gridDos{
         display: flex;
         justify-content: center;
@@ -317,94 +272,8 @@ li {
         background-color: green;
         padding: 40px;
     }
-    
-    
-    .bordes{
-        border: 1px solid black;
-        padding: 20px;
-        background-color: cornsilk;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 12pt;
-        text-align: center;
-        margin-right: 10%;
-    }
-    
-    .imagenCuadro{
-        display: block;
-        margin: auto;
-        padding: 5px;
-    }
-    
-    
-    
-    .introduccion {
-        background-color: green;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        border: 3px solid black;
-        margin: 50px;
-    }
-    
-    .bordesDos{
-        border: 2px solid black;
-        text-align: center;
-        padding: 4px;
-    } 
-    
-    .piePaginas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff7e2;
-    }
-    
-    .textoLargo {
-        font-size: 30px;
-        text-align: center;
-    }
-    
-    .corpo {
-        font-size: 15pt;
-        color: black;
-    }
-    
-    .btn {
-        padding: 10px;
-        margin: 10px;
-    }
-    
-        .flex {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            background-color: black;
-            margin: 0px;
-            padding: 0px;
-        }
-    .formulario {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #fff7e2;
-    }
-    
-    .pie {
-        color: white;
-        background-color: black;
-        font-size: 15pt;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    
+}
+
     .whatsapp {
         display: flex;
         flex-direction: row;
@@ -414,166 +283,16 @@ li {
         background-color: black;
         padding: 10px;
     }
-    
-    .grid_contacto {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 50% 50%;
-        grid-column-gap: 2px;
-        grid-row-gap: 2px;
-        grid-template-areas: 
-        "info mapa";
-        padding: 20px;
-        background-color: green;
-        color: white;
-        font-size: 20pt;
-        justify-content: space-around;
-    
-    
-    }
-    
-    .info {
-        grid-template-areas: info;
-    }
-    
-    .mapa {
-        grid-template-areas: mapa;
-    }
-    
     .redes {
         display: flex;
         flex-direction: row;
         justify-content: center;
         background-color: orange;
         padding: 20px;
-    
-    }
-    
-    .espacio {
-        margin: 5px;
-    }
-    
-    .nosotrosPresenta {
-       margin: 10px;
-    }
-    
-    .textolargo_dos {
-        background-color: orange;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        padding: 30px;
-    }
-    
-    .textosNosotros{
-        border: 3px solid black;
-        background-color: white;
-        font-style: normal;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        margin: 10px;
-    }
-    
-    .listaTipos {
-        justify-content: center;
-    }
-    
-    .logoSeccion {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: linear-gradient(to bottom, #fdf5e2 0%, #ffe5ad 100%);
-    }
-    
-    .carritos {
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } 
-    
-    .boxesUno {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    
-    .quienesSomos {
-        border: 3px solid black;
-        margin: 10px;
-    }
-    
-    .boxesDos {
-        display: flex;
-        flex-direction: row;
-        margin: 20px;
-    }
-    
-    .data {
-        background-color: #fff7e2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-    }
-    
-    .encabezadoCombos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .datos {
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 80px;
-    }
-    
-    .fondos {
-        background-color: #fff7e2;
-    }
 
 }
 
 @media (min-width: 768px) {
-    body{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    li {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        font-family: "Lobster", cursive;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        font-size: 20pt;
-        margin: 20px;
-        font-weight: normal;
-    }
-    
-    .neutro {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        color: white;
-    } 
-    
-    
-    
-    .encabezado {
-        display: flex;
-        justify-content: center;
-    }
-    
     .flex {
         display: flex;
         flex-direction: row;
@@ -582,7 +301,12 @@ li {
         margin: 0px;
         padding: 0px;
     }
-    
+
+    .encabezado {
+        display: flex;
+        justify-content: center;
+    }
+
     .gridDos{
         display: flex;
         justify-content: center;
@@ -591,94 +315,6 @@ li {
         background-color: green;
         padding: 40px;
     }
-    
-    
-    .bordes{
-        border: 1px solid black;
-        padding: 20px;
-        background-color: cornsilk;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 12pt;
-        text-align: center;
-        margin-right: 10%;
-    }
-    
-    .imagenCuadro{
-        display: block;
-        margin: auto;
-        padding: 5px;
-    }
-    
-    
-    
-    .introduccion {
-        background-color: green;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        border: 3px solid black;
-        margin: 50px;
-    }
-    
-    .bordesDos{
-        border: 2px solid black;
-        text-align: center;
-        padding: 4px;
-    } 
-    
-    .piePaginas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff7e2;
-    }
-    
-    .textoLargo {
-        font-size: 30px;
-        text-align: center;
-    }
-    
-    .corpo {
-        font-size: 15pt;
-        color: black;
-    }
-    
-    .btn {
-        padding: 10px;
-        margin: 10px;
-    }
-    
-        .flex {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            background-color: black;
-            margin: 0px;
-            padding: 0px;
-        }
-    .formulario {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #fff7e2;
-    }
-    
-    .pie {
-        color: white;
-        background-color: black;
-        font-size: 15pt;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    
     .whatsapp {
         display: flex;
         flex-direction: row;
@@ -688,168 +324,18 @@ li {
         background-color: black;
         padding: 10px;
     }
-    
-    .grid_contacto {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 50% 50%;
-        grid-column-gap: 2px;
-        grid-row-gap: 2px;
-        grid-template-areas: 
-        "info mapa";
-        padding: 20px;
-        background-color: green;
-        color: white;
-        font-size: 20pt;
-        justify-content: space-around;
-    
-    
-    }
-    
-    .info {
-        grid-template-areas: info;
-    }
-    
-    .mapa {
-        grid-template-areas: mapa;
-    }
-    
     .redes {
         display: flex;
         flex-direction: row;
         justify-content: center;
         background-color: orange;
         padding: 20px;
-    
-    }
-    
-    .espacio {
-        margin: 5px;
-    }
-    
-    .nosotrosPresenta {
-       margin: 10px;
-    }
-    
-    .textolargo_dos {
-        background-color: orange;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        padding: 30px;
-    }
-    
-    .textosNosotros{
-        border: 3px solid black;
-        background-color: white;
-        font-style: normal;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        margin: 10px;
-    }
-    
-    .listaTipos {
-        justify-content: center;
-    }
-    
-    .logoSeccion {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: linear-gradient(to bottom, #fdf5e2 0%, #ffe5ad 100%);
-    }
-    
-    .carritos {
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } 
-    
-    .boxesUno {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    
-    .quienesSomos {
-        border: 3px solid black;
-        margin: 10px;
-    }
-    
-    .boxesDos {
-        display: flex;
-        flex-direction: row;
-        margin: 20px;
-    }
-    
-    .data {
-        background-color: #fff7e2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-    }
-    
-    .encabezadoCombos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .datos {
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 80px;
-    }
-    
-    .fondos {
-        background-color: #fff7e2;
-    }
-
+       }
 }
 
 
 
 @media (min-width: 992px) { 
-    body{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    li {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        font-family: "Lobster", cursive;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        font-size: 20pt;
-        margin: 20px;
-        font-weight: normal;
-    }
-    
-    .neutro {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        color: white;
-    } 
-    
-    
-    
-    .encabezado {
-        display: flex;
-        justify-content: center;
-    }
-    
     .flex {
         display: flex;
         flex-direction: row;
@@ -858,7 +344,12 @@ li {
         margin: 0px;
         padding: 0px;
     }
-    
+
+    .encabezado {
+        display: flex;
+        justify-content: center;
+    }
+
     .gridDos{
         display: flex;
         justify-content: center;
@@ -867,94 +358,6 @@ li {
         background-color: green;
         padding: 40px;
     }
-    
-    
-    .bordes{
-        border: 1px solid black;
-        padding: 20px;
-        background-color: cornsilk;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 12pt;
-        text-align: center;
-        margin-right: 10%;
-    }
-    
-    .imagenCuadro{
-        display: block;
-        margin: auto;
-        padding: 5px;
-    }
-    
-    
-    
-    .introduccion {
-        background-color: green;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        border: 3px solid black;
-        margin: 50px;
-    }
-    
-    .bordesDos{
-        border: 2px solid black;
-        text-align: center;
-        padding: 4px;
-    } 
-    
-    .piePaginas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff7e2;
-    }
-    
-    .textoLargo {
-        font-size: 30px;
-        text-align: center;
-    }
-    
-    .corpo {
-        font-size: 15pt;
-        color: black;
-    }
-    
-    .btn {
-        padding: 10px;
-        margin: 10px;
-    }
-    
-        .flex {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            background-color: black;
-            margin: 0px;
-            padding: 0px;
-        }
-    .formulario {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #fff7e2;
-    }
-    
-    .pie {
-        color: white;
-        background-color: black;
-        font-size: 15pt;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    
     .whatsapp {
         display: flex;
         flex-direction: row;
@@ -964,166 +367,16 @@ li {
         background-color: black;
         padding: 10px;
     }
-    
-    .grid_contacto {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 50% 50%;
-        grid-column-gap: 2px;
-        grid-row-gap: 2px;
-        grid-template-areas: 
-        "info mapa";
-        padding: 20px;
-        background-color: green;
-        color: white;
-        font-size: 20pt;
-        justify-content: space-around;
-    
-    
-    }
-    
-    .info {
-        grid-template-areas: info;
-    }
-    
-    .mapa {
-        grid-template-areas: mapa;
-    }
-    
     .redes {
         display: flex;
         flex-direction: row;
         justify-content: center;
         background-color: orange;
         padding: 20px;
-    
-    }
-    
-    .espacio {
-        margin: 5px;
-    }
-    
-    .nosotrosPresenta {
-       margin: 10px;
-    }
-    
-    .textolargo_dos {
-        background-color: orange;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        padding: 30px;
-    }
-    
-    .textosNosotros{
-        border: 3px solid black;
-        background-color: white;
-        font-style: normal;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        margin: 10px;
-    }
-    
-    .listaTipos {
-        justify-content: center;
-    }
-    
-    .logoSeccion {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: linear-gradient(to bottom, #fdf5e2 0%, #ffe5ad 100%);
-    }
-    
-    .carritos {
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } 
-    
-    .boxesUno {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    
-    .quienesSomos {
-        border: 3px solid black;
-        margin: 10px;
-    }
-    
-    .boxesDos {
-        display: flex;
-        flex-direction: row;
-        margin: 20px;
-    }
-    
-    .data {
-        background-color: #fff7e2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-    }
-    
-    .encabezadoCombos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .datos {
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 80px;
-    }
-    
-    .fondos {
-        background-color: #fff7e2;
-    }
-  
-}
+        }
+}       
 
 @media (min-width: 1200px) { 
-    body{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    li {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        font-family: "Lobster", cursive;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        font-size: 20pt;
-        margin: 20px;
-        font-weight: normal;
-    }
-    
-    .neutro {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        color: white;
-    } 
-    
-    
-    
-    .encabezado {
-        display: flex;
-        justify-content: center;
-    }
-    
     .flex {
         display: flex;
         flex-direction: row;
@@ -1132,7 +385,12 @@ li {
         margin: 0px;
         padding: 0px;
     }
-    
+
+    .encabezado {
+        display: flex;
+        justify-content: center;
+    }
+
     .gridDos{
         display: flex;
         justify-content: center;
@@ -1141,94 +399,6 @@ li {
         background-color: green;
         padding: 40px;
     }
-    
-    
-    .bordes{
-        border: 1px solid black;
-        padding: 20px;
-        background-color: cornsilk;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 12pt;
-        text-align: center;
-        margin-right: 10%;
-    }
-    
-    .imagenCuadro{
-        display: block;
-        margin: auto;
-        padding: 5px;
-    }
-    
-    
-    
-    .introduccion {
-        background-color: green;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        border: 3px solid black;
-        margin: 50px;
-    }
-    
-    .bordesDos{
-        border: 2px solid black;
-        text-align: center;
-        padding: 4px;
-    } 
-    
-    .piePaginas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff7e2;
-    }
-    
-    .textoLargo {
-        font-size: 30px;
-        text-align: center;
-    }
-    
-    .corpo {
-        font-size: 15pt;
-        color: black;
-    }
-    
-    .btn {
-        padding: 10px;
-        margin: 10px;
-    }
-    
-        .flex {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            background-color: black;
-            margin: 0px;
-            padding: 0px;
-        }
-    .formulario {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #fff7e2;
-    }
-    
-    .pie {
-        color: white;
-        background-color: black;
-        font-size: 15pt;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    
     .whatsapp {
         display: flex;
         flex-direction: row;
@@ -1238,170 +408,17 @@ li {
         background-color: black;
         padding: 10px;
     }
-    
-    .grid_contacto {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 50% 50%;
-        grid-column-gap: 2px;
-        grid-row-gap: 2px;
-        grid-template-areas: 
-        "info mapa";
-        padding: 20px;
-        background-color: green;
-        color: white;
-        font-size: 20pt;
-        justify-content: space-around;
-    
-    
-    }
-    
-    .info {
-        grid-template-areas: info;
-    }
-    
-    .mapa {
-        grid-template-areas: mapa;
-    }
-    
     .redes {
         display: flex;
         flex-direction: row;
         justify-content: center;
         background-color: orange;
         padding: 20px;
-    
-    }
-    
-    .espacio {
-        margin: 5px;
-    }
-    
-    .nosotrosPresenta {
-       margin: 10px;
-    }
-    
-    .textolargo_dos {
-        background-color: orange;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        padding: 30px;
-    }
-    
-    .textosNosotros{
-        border: 3px solid black;
-        background-color: white;
-        font-style: normal;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        margin: 10px;
-    }
-    
-    .listaTipos {
-        justify-content: center;
-    }
-    
-    .logoSeccion {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: linear-gradient(to bottom, #fdf5e2 0%, #ffe5ad 100%);
-    }
-    
-    .carritos {
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } 
-    
-    .boxesUno {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    
-    .quienesSomos {
-        border: 3px solid black;
-        margin: 10px;
-    }
-    
-    .boxesDos {
-        display: flex;
-        flex-direction: row;
-        margin: 20px;
-    }
-    
-    .data {
-        background-color: #fff7e2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-    }
-    
-    .encabezadoCombos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .datos {
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 80px;
-    }
-    
-    .fondos {
-        background-color: #fff7e2;
-    }
-    
-
-
+        }
 }
 
 
 @media (min-width: 1400px) { 
-   
-    body{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    li {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        font-family: "Lobster", cursive;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-        font-size: 20pt;
-        margin: 20px;
-        font-weight: normal;
-    }
-    
-    .neutro {
-        list-style-type: none;
-        text-decoration: none;
-        text-decoration-color: none;
-        color: white;
-    } 
-    
-    
-    
-    .encabezado {
-        display: flex;
-        justify-content: center;
-    }
-    
     .flex {
         display: flex;
         flex-direction: row;
@@ -1410,7 +427,12 @@ li {
         margin: 0px;
         padding: 0px;
     }
-    
+
+    .encabezado {
+        display: flex;
+        justify-content: center;
+    }
+
     .gridDos{
         display: flex;
         justify-content: center;
@@ -1419,94 +441,6 @@ li {
         background-color: green;
         padding: 40px;
     }
-    
-    
-    .bordes{
-        border: 1px solid black;
-        padding: 20px;
-        background-color: cornsilk;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 12pt;
-        text-align: center;
-        margin-right: 10%;
-    }
-    
-    .imagenCuadro{
-        display: block;
-        margin: auto;
-        padding: 5px;
-    }
-    
-    
-    
-    .introduccion {
-        background-color: green;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        border: 3px solid black;
-        margin: 50px;
-    }
-    
-    .bordesDos{
-        border: 2px solid black;
-        text-align: center;
-        padding: 4px;
-    } 
-    
-    .piePaginas {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff7e2;
-    }
-    
-    .textoLargo {
-        font-size: 30px;
-        text-align: center;
-    }
-    
-    .corpo {
-        font-size: 15pt;
-        color: black;
-    }
-    
-    .btn {
-        padding: 10px;
-        margin: 10px;
-    }
-    
-        .flex {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            background-color: black;
-            margin: 0px;
-            padding: 0px;
-        }
-    .formulario {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #fff7e2;
-    }
-    
-    .pie {
-        color: white;
-        background-color: black;
-        font-size: 15pt;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    
     .whatsapp {
         display: flex;
         flex-direction: row;
@@ -1516,131 +450,11 @@ li {
         background-color: black;
         padding: 10px;
     }
-    
-    .grid_contacto {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 50% 50%;
-        grid-column-gap: 2px;
-        grid-row-gap: 2px;
-        grid-template-areas: 
-        "info mapa";
-        padding: 20px;
-        background-color: green;
-        color: white;
-        font-size: 20pt;
-        justify-content: space-around;
-    
-    
-    }
-    
-    .info {
-        grid-template-areas: info;
-    }
-    
-    .mapa {
-        grid-template-areas: mapa;
-    }
-    
     .redes {
         display: flex;
         flex-direction: row;
         justify-content: center;
         background-color: orange;
         padding: 20px;
-    
-    }
-    
-    .espacio {
-        margin: 5px;
-    }
-    
-    .nosotrosPresenta {
-       margin: 10px;
-    }
-    
-    .textolargo_dos {
-        background-color: orange;
-        font-style: normal;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        padding: 30px;
-    }
-    
-    .textosNosotros{
-        border: 3px solid black;
-        background-color: white;
-        font-style: normal;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        margin: 10px;
-    }
-    
-    .listaTipos {
-        justify-content: center;
-    }
-    
-    .logoSeccion {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background: linear-gradient(to bottom, #fdf5e2 0%, #ffe5ad 100%);
-    }
-    
-    .carritos {
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } 
-    
-    .boxesUno {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    
-    .quienesSomos {
-        border: 3px solid black;
-        margin: 10px;
-    }
-    
-    .boxesDos {
-        display: flex;
-        flex-direction: row;
-        margin: 20px;
-    }
-    
-    .data {
-        background-color: #fff7e2;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-    }
-    
-    .encabezadoCombos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    .datos {
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 80px;
-    }
-    
-    .fondos {
-        background-color: #fff7e2;
-    }
-    
-}
+       }
+} 
