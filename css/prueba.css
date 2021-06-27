@@ -13,6 +13,23 @@ body {
   margin: 0px;
   padding: 0px; }
 
+li {
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-color: none;
+  font-family: "Lobster";
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 20pt;
+  margin: 20px;
+  font-weight: normal; }
+
+.neutro {
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-color: none;
+  color: white; }
+
 .gridDos {
   display: flex;
   justify-content: center;
